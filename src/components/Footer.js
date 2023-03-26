@@ -10,6 +10,7 @@ const Footer = () => {
   return <footer className='' data-aos='fade-up' data-aos-delay='700'>
     <div className='conainer mx-auto bg-[#A57CE6] mt-[100px] h-[400px]'>
       <div className=' flex flex-col'>
+
       <button className='btn btn-[#542E90] btn-outline bg-[#542E90] text-white w-[150px] h-[30px] rounded rounded-full mx-[200px] mt-[70px]'>{btnext7}</button>
       <div>
         {/** logo */}
