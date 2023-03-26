@@ -24,15 +24,15 @@ const Hero = () => {
                 <div className='flex flex-justify items-center max-w-sm
                 lg:max-w-full mx-auto lg:mx-0 gap-x-2 lg:gap-x-6'>
                     <button className='btn btn-md md:btn-md bg-[#A57CE6]
-                    flex justify-center items-center lg:gap-x-4 text-white mt-[25px]'
+                    flex justify-center items-center lg:gap-x-4 text-white mt-[20px]'
                     data-aos='fade-down' data-aos-delay='700'>{btnText}</button>
-                    <span className=' mt-[25px]' data-aos='fade-down' data-aos-delay='700'>{compText}</span>
+                    <span className=' mt-[20px]' data-aos='fade-down' data-aos-delay='700'>{compText}</span>
                     <button className='btn btn-md md:btn-md bg-[#A57CE6]
-                      lg:gap-x-4 text-white  mt-[25px]' data-aos='fade-down'
+                      lg:gap-x-4 text-white  mt-[20px]' data-aos='fade-down'
                       data-aos-delay='500'>{btn2Text}</button>
                     {/* write comp2Text here */}
                 </div>
-                <span className='flex flex-row mx-[40px] mt-[20px] font-bold justify-center-items-center' data-aos='fade-down' data-aos-delay='800'>{free}</span>
+                <span className='flex flex-row mx-[40px] mt-[-2px] font-bold justify-center-items-center' data-aos='fade-down' data-aos-delay='800'>{free}</span>
             </div>
             {/* image */}
             <div className='flex-1 mt-[-50px]'  data-aos='fade-down' data-aos-delay='300'>
