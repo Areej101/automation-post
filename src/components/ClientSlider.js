@@ -3,9 +3,13 @@ import React from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react';
 //import swiper styles
 import 'swiper/css';
+import { Navigation, Pagination, A11y } from 'swiper';
+
 
 const ClientSlider = ({ clients }) => {
-  return <Swiper slidesPerView={1} spaceBetween={30} grabCursor={true} loop={true} breakpoints={{
+  return <Swiper
+  modules={[Navigation, Pagination, A11y]}
+  slidesPerView={1} spaceBetween={30} grabCursor={true} loop={true} breakpoints={{
     640: {
       slidesPerView: 1,
       spaceBetween: 10,
