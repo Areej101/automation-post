@@ -1,16 +1,20 @@
 import React, {useState, useEffect} from 'react';
-
+import { useNavigate } from 'react-router-dom';
 //import data
 import { header } from '../data';
 //import icons
 import {HiArrowPath} from 'react-icons/hi2'
 //IMPORT COMPONENTS
-import MobileNav from '../components/MobileNav';
-import Nav from '../components/Nav';
+import MobileNav from './MobileNav';
+import Nav from './Nav';
 import { set } from 'mongoose';
 import { HiMenuAlt4, HiOutlineX } from 'react-icons/hi';
 
 const Header = () => {
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate("/signin")
+    }
     //mobile nav state
     const [mobileNav, setMobileNav]= useState(false);
      // header state
@@ -36,7 +40,7 @@ const Header = () => {
             <Nav />
         </div>
         {/** cta button- initially hidden -show on desktop */}
-        <button className='btn btn-md md:btn-md btn-[#A57CE6] btn-outline bg-[#A57CE6] text-white hidden lg:flex mt-[-12px]' data-aos='fade-down' data-aos-delay='1400'>
+        <button onClick={handleClick} className='btn btn-md md:btn-md btn-[#A57CE6] btn-outline bg-[#A57CE6] text-white hidden lg:flex mt-[-12px]' data-aos='fade-down' data-aos-delay='1400'>
             {btnText}
         </button>
         {/** mobile nav trigger btn - hidden on desktop */}

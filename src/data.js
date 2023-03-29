@@ -1,5 +1,6 @@
 // import images
 import LogoImg from '../src/assests/img/header/logo.svg';
+import LogoImg5 from '../src/assests/img/signin/logo1.svg';
 import HeroImg from '../src/assests/img/hero/image.svg';
 import OverviewProductImg from '../src/assests/img/overview/product.svg';
 import FacebookImg from '../src/assests/img/overview/brands/facebook.png';
@@ -26,12 +27,53 @@ import LogoImg4 from '../src/assests/img/overview/analyze.svg';
 import InstaIcon from '../src/assests/img/footer/insta.svg';
 import Facebook2Icon from '../src/assests/img/footer/facebook.svg';
 import Twitter2Icon from '../src/assests/img/footer/twitter.svg';
+import GoogleImg from '../src/assests/img/signin/google.png';
+import AppleImg from '../src/assests/img/signin/apple-logo.png';
+import Facebook1Img from '../src/assests/img/signin/facebook.png';
+import Slide1 from '../src/assests/img/signin/image1.png'
+import Slide2 from '../src/assests/img/signin/image2.png'
+import Slide3 from '../src/assests/img/signin/image3.png'
 
 
 export const header = {
   logo: LogoImg,
   text: 'Automation Post',
   btnText: 'Sign up/Login',
+};
+export const signin = {
+  logo5: LogoImg5,
+  text7: 'Automation Post',
+  brands: [
+    {
+      image: Facebook1Img,
+      delay: 300,
+    },
+    {
+      image: GoogleImg,
+      delay: 400,
+    },
+    {
+      image: AppleImg,
+      delay: 500,
+    },
+  ],
+  slides: [
+    {
+      image: Slide1,
+      comment: 'One of the Best Social Media Post Scheduler!',
+      position: 'Michel (YouTuber)',
+    },
+    {
+      image: Slide2,
+      comment: 'One of the Best Social Media Post Scheduler!',
+      position: 'Michel (YouTuber)',
+    },
+    {
+      image: Slide3,
+      comment: 'This website has Helped me with My social Media',
+      position: 'Ally (Influencer)',
+    },
+  ],
 };
 
 export const nav = [
@@ -152,7 +194,7 @@ export const testimonials = {
       image: AvatarImg5,
       comment: 'Awesome!!!',
       name: 'Terri Conroy',
-      position:  'Web Designer',
+      position: 'Web Designer',
       borderColor: '#FFFFFF',
     },
   ],
@@ -198,7 +240,7 @@ export const footer = {
     btnText: 'Subscribe',
     smallText: 'We don’t sell your email and spam',
   },
-  btnext7:'Contact Us',
+  btnext7: 'Contact Us',
   title7: 'Contact@automaticpost.com',
   title8: 'Social Media',
   icon1: InstaIcon,

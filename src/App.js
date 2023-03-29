@@ -14,6 +14,10 @@ import Feature1 from './components/Feature1';
 import Testimonials from './components/Testimonials';
 import Cta from './components/Cta';
 import Footer from './components/Footer';
+import { BrowserRouter as Router,Routes, Route, BrowserRouter} from 'react-router-dom';
+
+//useNvigationHook
+
 
 const App = () => {
   // initialize aos
