@@ -66,7 +66,7 @@ export const signin = {
     {
       image: Slide2,
       comment: 'One of the Best Social Media Post Scheduler!',
-      position: 'Michel (YouTuber)',
+      position: 'Emma (YouTuber)',
     },
     {
       image: Slide3,
