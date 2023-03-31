@@ -30,16 +30,35 @@ import Twitter2Icon from '../src/assests/img/footer/twitter.svg';
 import GoogleImg from '../src/assests/img/signin/google.png';
 import AppleImg from '../src/assests/img/signin/apple-logo.png';
 import Facebook1Img from '../src/assests/img/signin/facebook.png';
-import Slide1 from '../src/assests/img/signin/image1.png'
-import Slide2 from '../src/assests/img/signin/image2.png'
-import Slide3 from '../src/assests/img/signin/image3.png'
-
+import Slide1 from '../src/assests/img/signin/image1.png';
+import Slide2 from '../src/assests/img/signin/image2.png';
+import Slide3 from '../src/assests/img/signin/image3.png';
+import on1 from '../src/assests/img/onboarding/people.png';
+import on2 from '../src/assests/img/onboarding/content.png';
+import on3 from '../src/assests/img/onboarding/calendar.png';
 
 export const header = {
   logo: LogoImg,
   text: 'Automation Post',
   btnText: 'Sign up/Login',
 };
+
+export const onboarding = {
+  logo: LogoImg,
+  text: 'Automation Post',
+  image11: on1,
+  image12: on2,
+  image13: on3,
+  image14: FacebookImg,
+  image15: InstaImg,
+  image16: LinkedinImg,
+  image17: TwitterImg,
+  image18: PinterestImg,
+  image19: TiktokImg,
+  image20: YoutubeImg,
+};
+
+
 export const signin = {
   logo5: LogoImg5,
   text7: 'Automation Post',

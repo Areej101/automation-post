@@ -9,6 +9,7 @@ import {
 import Signin from './Signin/Sign';
 import Signup from './Signup/sign-up';
 import ForgetPass from './Forget-pass/forget';
+import Onboarding from './Onboarding/onboarding';
 
 
 const router = createHashRouter([
@@ -28,6 +29,10 @@ const router = createHashRouter([
   {
     path: "/forget",
     element: <ForgetPass />,
+  },
+  {
+    path: "/onboarding",
+    element: <Onboarding />,
   }
 ]);
 

@@ -56,9 +56,9 @@ const Signup = () => {
             </Link>
           </div>
           <div class="flex flex-row items-center justify-between mt-[35px]">
-            <button class="bg-[#A57CE6] w-[300px] hover:bg-blue-700 text-white font-bold py-2 px-4 btn btn-md md:btn-md rounded-[30px] focus:outline-none focus:shadow-outline" type="button">
+            <Link class="bg-[#A57CE6] w-[300px] hover:bg-blue-700 text-white font-bold py-2 px-4 btn btn-md md:btn-md rounded-[30px] focus:outline-none focus:shadow-outline" type="button" to="/onboarding">
               Sign Up
-            </button>
+            </Link>
           </div>
           <div className='mt-[5px] mx-[98px] w-[300px]'>
             <a class=" text-sm text-[black]   hover:text-blue-800" href="#">
@@ -77,7 +77,7 @@ const Signup = () => {
             })}
           </div>
           <div className='mt-[30px]'>
-            <h2 className='font-bold'>Already Have an Account? <Link className='text-[#A57CE6]' to='/signin'>Sign up</Link></h2>
+            <h2 className='font-bold'>Already Have an Account? <Link className='text-[#A57CE6]' to='/signin'>Sign In</Link></h2>
           </div>
         </form>
       </div>
